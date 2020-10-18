@@ -1,0 +1,31 @@
+body {
+    background: #f9f9f9;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-link {
+    cursor: pointer;
+    &:hover {
+        color: #007bff;
+    }
+}
+
+.form-login-container {
+    position: absolute;
+    margin-top: 10%;
+    width: 460px;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.btn-month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar {
+    border-radius: 2%;
+}
